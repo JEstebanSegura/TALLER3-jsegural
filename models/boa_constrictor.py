@@ -10,7 +10,7 @@ class BoaConstrictor(AnimalExotico):
        return "¡Tsss!"
     
     def eat_mouse(self):
-        if self.__mouses_eaten >= 10:
+        if self.__mouses_eaten >= 20:
             raise ValueError("Demasiados Ratones!")
         self.__mouses_eaten += 1
 
